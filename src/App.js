@@ -1,6 +1,10 @@
+import DigitalClock from "./components/DigitalClock/DigitalClock";
+
 function App() {
   return (
-    <h1>React Clock</h1>
+    <>
+      <DigitalClock />
+    </>
   );
 }
 
