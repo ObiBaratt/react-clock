@@ -132,9 +132,21 @@
     z-index: 11;
   }
 
-  @media (min-width: 300px) {
+  @media (max-width: 420px) {
     .analogClock {
         width: 30vmax;
         height: 30vmax;
     }
+    .outerClock::after,
+    .outerClock::before,
+    .outerClock .mark {
+      width: 3px;
+
+    }
+
+    .outerClock .mark {
+      background: rgb(177, 172, 176);
+      width: 2px;
+    }
+
   }
