@@ -10,7 +10,6 @@ export default function AnalogClock() {
 
     const updateTime = () => {
         setDate(new Date());
-        console.log(date);
         setHour(date.getHours());
         setMin(date.getMinutes());
         setSec(date.getSeconds());

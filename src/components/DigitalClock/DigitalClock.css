@@ -4,13 +4,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(130, 127, 127);
-    color: #39FF14;
     font-size: 25vmin;
     font-weight: bolder;
     font-family: 'Aldrich', sans-serif;
+    background-color: rgb(130, 127, 127);
+    color: #39FF14;
 }
 
-@media (min-width: 300) {
+.digitalClock.AM {
+    background-color: skyblue;
+    color: rgb(206, 176, 5);
+}
+
+.digitalClock.PM {
+    background-color: rgb(130, 127, 127);
+    color: #39FF14;
+}
+
+@media (max-width: 500) {
 
 }
