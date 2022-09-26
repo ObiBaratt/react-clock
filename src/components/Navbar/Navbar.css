@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    background-color: #ebe7e5;
+    padding: 20px;
+    margin: -10px;
+    justify-content: space-around;
+}
+
+.toggle {
+    border-radius: 10px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.digital {
+    background-color: rgb(130, 127, 127);
+    color: #39FF14;
+}
+
+.analog {
+    background-color: white;
+    color: rgb(177, 172, 176);
+}
+
+.toggle:hover {
+    box-shadow: 2px 2px;
+}

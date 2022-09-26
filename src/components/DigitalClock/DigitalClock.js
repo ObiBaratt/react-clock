@@ -30,22 +30,22 @@ export default function DigitalClock() {
     },[]);
 
     return (
-        <div className='digitalClock fill-window'>
+        <div className={`digitalClock ${date[2].slice(3)} fill-window`}>
             <div className="container">
                 {width > breakPoint? (
                     <div>{joined}</div>
                 ) : (
                     <div>
-                    <div>
-                    {date[0]}
-                </div>
-                <div>
-                    {date[1]}
-                </div>
-                <div>
-                    {date[2].slice(0, 3)}
-                </div>
-                </div>
+                        <div>
+                            {date[0]}
+                        </div>
+                        <div>
+                            {date[1]}
+                        </div>
+                        <div>
+                            {date[2].slice(0, 3)}
+                        </div>
+                    </div>
                 )
 
             }
